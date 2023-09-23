@@ -12,14 +12,12 @@ const ContainerInfo: React.FC<IContainerInfo> = ({
   <Grid
     container
     direction="row"
-    justifyContent="space-between"
     alignItems="center"
-    spacing={2}
   >
-    <Grid item>
+    <Grid item xs={1}>
         {Icon}
     </Grid>
-    <Grid item>
+    <Grid item xs={11}>
       <Typography variant="body2">{text}</Typography>
     </Grid>
   </Grid>
