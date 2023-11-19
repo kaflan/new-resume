@@ -18,9 +18,11 @@ export default function RecipeReviewCard() {
           image={image}
           alt="It's me Andrii KAtrusha"
           sx={{
-            width: 340,
-            height: 375,
-            borderRadius: '50%'
+            borderRadius: '50%',
+            '& > img': {
+              width: '100%',
+              height: '100%',
+            }
           }}
         />
       </Grid>
@@ -30,13 +32,14 @@ export default function RecipeReviewCard() {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <ContainerInfo Icon={<Email />} text="andrey.katrusha@gmail.com" />
+        <ContainerInfo Icon={<Email />} text="andrey.katrusha@gmail.com" linkText="mailto:andrey.katrusha@gmail.com" />
         <ContainerInfo Icon={<Call />} text="+48572741" />
         <ContainerInfo
           Icon={<LinkedIn />}
-          text="https://www.linkedin.com/in/kaflan"
+          text="linkedin"
+          linkText="https://www.linkedin.com/in/kaflan"
         />
-        <ContainerInfo Icon={<GitHub />} text="https://github.com/kaflan" />
+        <ContainerInfo Icon={<GitHub />} text="git" linkText="https://github.com/kaflan" />
       </Grid>
       <Grid item xs={12}>
         <Typography variant="h4" color="text.secondary">

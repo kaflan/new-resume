@@ -129,11 +129,11 @@ const ProfileInfo = () => {
       </Grid>
       <Grid item xs={11}>
         <Typography variant="h4" color={teal["300"]}>
-          EXPIRIANCES
+          EXPERIENCES
         </Typography>
       </Grid>
       <Grid item xs={12}>
-          <Expiriances />
+        <Expiriances />
       </Grid>
     </Grid>
   );
