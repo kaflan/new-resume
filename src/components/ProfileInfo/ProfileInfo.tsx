@@ -1,7 +1,9 @@
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import { Grid, Typography } from "@mui/material";
 import ArchitectureIcon from "@mui/icons-material/Architecture";
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import { teal } from "@mui/material/colors";
+import Expiriances from "../Expiriances/Expiriances";
 
 const ProfileInfo = () => {
   return (
@@ -88,7 +90,7 @@ const ProfileInfo = () => {
       </Grid>
       <Grid item xs={11}>
         <Typography variant="h4" color={teal["300"]}>
-          CAREER PROFILE
+          SHORT INFO
         </Typography>
       </Grid>
       <Grid
@@ -100,11 +102,38 @@ const ProfileInfo = () => {
       />
       <Grid item xs={12}>
         <Typography variant="subtitle2">
-          8+ years of diverse project development experience, including client
-          and shareholder milestone demos. Proficient in modern tools (npm,
-          webpack, Git), with strong foundations in Object-Oriented and MVC
-          patterns. Basic familiarity with Node.js and Express.js.
+          With over eight years of experience in software engineering, I have
+          developed a range of skills and competencies in front-end and back-end
+          development, freelance projects, and various JS frameworks. I have a
+          Bachelor's degree in Agriculture, Agriculture Operations, and Related
+          Sciences from the National University of Life and Environmental
+          Sciences of Ukraine, and an expert certificate in computer specialist
+          from Smart.js Academy, where I learned the best practices and
+          standards of web development. I am result-oriented, problem-solving,
+          and communicative, with a strong passion for web development and
+          continuous learning. I speak English, Russian, and Ukrainian fluently.
         </Typography>
+      </Grid>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          marginTop: 5,
+        }}
+      />
+      <Grid item xs={1}>
+        <BusinessCenterIcon
+          htmlColor={teal["300"]}
+          fontSize="large"
+        ></BusinessCenterIcon>
+      </Grid>
+      <Grid item xs={11}>
+        <Typography variant="h4" color={teal["300"]}>
+          EXPIRIANCES
+        </Typography>
+      </Grid>
+      <Grid item xs={12}>
+          <Expiriances />
       </Grid>
     </Grid>
   );

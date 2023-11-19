@@ -44,9 +44,9 @@ export default function RecipeReviewCard() {
         </Typography>
       </Grid>
       <Grid item xs={12}>
-        <Typography variant="body1">English (Professional)</Typography>
+        <Typography variant="body1">English (Professional) B2</Typography>
         <Typography variant="body1">Ukrainian (Native)</Typography>
-        <Typography variant="body1">Polish (Basic)</Typography>
+        <Typography variant="body1">Polish (Basic) A2</Typography>
       </Grid>
       <Grid item xs={12}>
         <Typography variant="h4" color="text.secondary">
