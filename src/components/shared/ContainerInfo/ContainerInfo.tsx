@@ -1,10 +1,6 @@
 import { Grid, Link, Typography } from "@mui/material";
 import * as React from "react";
 
-export enum TextEnum {
-  Link = "Link",
-  Text = "Text",
-}
 interface IContainerInfo {
   Icon: React.ReactNode;
   text: string;
